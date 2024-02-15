@@ -27,6 +27,9 @@
         <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
 
+    <!-- Bionic -->
+    <project name="android_bionic" path="bionic" groups="pdk" remote="exthm" />
+
     <!-- Prebuilts -->
     <project name="android_prebuilts_tools-exthm" path="prebuilts/tools-exthm" remote="exthm" />
 
