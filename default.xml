@@ -1079,4 +1079,10 @@
   <project name="toolchain/benchmark" remote="aosp" revision="804d5a9aa72d6a52361f1a28ca7cf2488a8fdd3f" upstream="refs/tags/android-14.0.0_r25" dest-branch="refs/tags/android-14.0.0_r25"/>
   <project name="toolchain/pgo-profiles" remote="aosp" revision="6e11afc847b4f177373d301e705a1d753dee1dda" upstream="refs/tags/android-14.0.0_r25" dest-branch="refs/tags/android-14.0.0_r25" groups="pdk"/>
   <project name="tools/platform-compat" remote="aosp" revision="1dab6d1f96ae96b17a0e9d77f55de0c81a4ada50" upstream="refs/tags/android-14.0.0_r25" dest-branch="refs/tags/android-14.0.0_r25" groups="pdk-cw-fs,pdk-fs,pdk"/>
+
+  <!-- START exTHmUI changes -->
+  <include name="snippets/remove.xml" />
+  <include name="snippets/external.xml" />
+  <include name="snippets/exthm.xml" />
+  <!-- END exTHmUI changes -->
 </manifest>

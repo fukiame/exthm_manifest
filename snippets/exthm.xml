@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <remote name="exthm"
+            fetch="https://github.com/exthmui-next"
+            revision="Utsuho" />
+
+    <!-- Manifests -->
+    <project name="android" path="android" remote="exthm"/>
+
+    <!-- Build System -->
+    <project name="android_build" path="build/make" groups="pdk" remote="exthm" >
+        <copyfile src="core/root.mk" dest="Makefile" />
+        <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+        <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+        <linkfile src="core" dest="build/core" />
+        <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+        <linkfile src="target" dest="build/target" />
+        <linkfile src="tools" dest="build/tools" />
+    </project>
+    <project name="android_build_bazel" path="build/bazel" groups="pdk" remote="exthm" >
+        <linkfile src="bazel.WORKSPACE" dest="WORKSPACE" />
+        <linkfile src="bazel.BUILD" dest="BUILD" />
+    </project>
+    <project name="android_build_soong" path="build/soong" groups="pdk,tradefed" remote="exthm" >
+        <linkfile src="root.bp" dest="Android.bp" />
+        <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+    </project>
+
+    <!-- Prebuilts -->
+    <project name="android_prebuilts_tools-exthm" path="prebuilts/tools-exthm" remote="exthm" />
+
+    <!-- Vendor -->
+    <project name="android_vendor_exthm" path="vendor/exthm" remote="exthm" />
+    <project name="android_vendor_support" path="vendor/support" remote="exthm" />    
+
+</manifest>
