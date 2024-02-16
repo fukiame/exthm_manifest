@@ -29,6 +29,9 @@
     <!-- Bionic -->
     <project name="android_bionic" path="bionic" groups="pdk" remote="exthm" />
 
+    <!-- Frameworks -->
+    <project name="android_frameworks_av" path="frameworks/av" groups="pdk" remote="exthm" />
+
     <!-- Prebuilts -->
     <project name="android_prebuilts_tools-exthm" path="prebuilts/tools-exthm" remote="exthm" />
 
