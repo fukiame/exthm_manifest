@@ -33,6 +33,9 @@
     <project name="android_frameworks_av" path="frameworks/av" groups="pdk" remote="exthm" />
     <project name="android_frameworks_native" path="frameworks/native" remote="exthm"/>
 
+    <!-- Hardware -->
+    <project name="android_hardware_google_pixel-sepolicy" path="hardware/google/pixel-sepolicy" remote="exthm" />
+
     <!-- Prebuilts -->
     <project name="android_prebuilts_tools-exthm" path="prebuilts/tools-exthm" remote="exthm" />
 
