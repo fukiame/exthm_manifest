@@ -18,10 +18,6 @@
         <linkfile src="target" dest="build/target" />
         <linkfile src="tools" dest="build/tools" />
     </project>
-    <project name="android_build_bazel" path="build/bazel" groups="pdk" remote="exthm" >
-        <linkfile src="bazel.WORKSPACE" dest="WORKSPACE" />
-        <linkfile src="bazel.BUILD" dest="BUILD" />
-    </project>
     <project name="android_build_soong" path="build/soong" groups="pdk,tradefed" remote="exthm" >
         <linkfile src="root.bp" dest="Android.bp" />
         <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
