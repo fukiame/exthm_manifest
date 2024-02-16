@@ -41,6 +41,9 @@
     <!-- Prebuilts -->
     <project name="android_prebuilts_tools-exthm" path="prebuilts/tools-exthm" remote="exthm" />
 
+    <!-- System -->
+    <project name="android_system_core" path="system/core" remote="exthm" />
+
     <!-- Vendor -->
     <project name="android_vendor_exthm" path="vendor/exthm" remote="exthm" />
     <project name="android_vendor_support" path="vendor/support" remote="exthm" />    
