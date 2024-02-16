@@ -36,6 +36,7 @@
 
     <!-- Hardware -->
     <project name="android_hardware_google_pixel-sepolicy" path="hardware/google/pixel-sepolicy" remote="exthm" />
+    <project name="android_hardware_lineage_interfaces" path="hardware/lineage/interfaces" remote="exthm" />
 
     <!-- Prebuilts -->
     <project name="android_prebuilts_tools-exthm" path="prebuilts/tools-exthm" remote="exthm" />
