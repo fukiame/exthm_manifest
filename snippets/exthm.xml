@@ -23,6 +23,9 @@
         <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
 
+    <!-- Bootable -->
+    <project name="android_bootable_recovery" path="bootable/recovery" groups="pdk" remote="exthm" />
+
     <!-- Bionic -->
     <project name="android_bionic" path="bionic" groups="pdk" remote="exthm" />
 
