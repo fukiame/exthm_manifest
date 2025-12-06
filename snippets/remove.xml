@@ -12,8 +12,6 @@
     <remove-project path="build/soong" />
 
     <!-- Device -->
-    <remove-project path="device/amlogic/yukawa" />
-    <remove-project path="device/amlogic/yukawa-kernel" />
     <remove-project path="device/common" />
     <remove-project path="device/generic/arm64" />
     <remove-project path="device/generic/armv7-a-neon" />
