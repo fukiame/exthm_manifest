@@ -21,7 +21,6 @@
     <remove-project path="device/generic/mini-emulator-armv7-a-neon" />
     <remove-project path="device/generic/mini-emulator-x86" />
     <remove-project path="device/generic/mini-emulator-x86_64" />
-    <remove-project path="device/generic/opengl-transport" />
     <remove-project path="device/generic/qemu" />
     <remove-project path="device/generic/trusty" />
     <remove-project path="device/generic/uml" />
