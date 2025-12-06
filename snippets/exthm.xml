@@ -3,7 +3,7 @@
 
     <remote name="exthm"
             fetch="https://github.com/exthmui-next"
-            revision="Utsuho" />
+            revision="Utsuho-qpr1" />
 
     <!-- Manifests -->
     <project name="android" path="android" remote="exthm"/>
