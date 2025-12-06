@@ -8,7 +8,7 @@
     <remove-project path="bootable/recovery" />
 
     <!-- Build -->
-    <remove-project path="build" />
+    <remove-project path="build/make" />
     <remove-project path="build/soong" />
 
     <!-- Device -->
